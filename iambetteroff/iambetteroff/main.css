@@ -1,0 +1,101 @@
+.all {
+    width: 880px;
+    height: 630px;
+    margin: 0 auto;
+    background-color: whitesmoke;
+}
+
+.left {
+   width: 430px;
+   height: 630px;
+   overflow: hidden;
+   float: left;
+   border-radius: 4px;
+}
+
+.right {
+   width: 450px;
+   height: 630px;
+   overflow: hidden;
+   float: right;
+}
+
+.right_top {
+  height: 300px;
+  padding-top: 10px;
+}
+
+.right_bottom {
+  height: 330px;
+  overflow: scroll;
+}
+
+.albumimg {
+   margin-left: 36px; 
+   margin-top: 37px;
+}
+
+* {
+   font-family: 'IBM Plex Sans KR', sans-serif;
+   font-family: 'Nanum Gothic', sans-serif;
+}
+
+.int {
+   text-align: center;
+   padding-left: 10px;
+   padding-right: 10px;
+}
+
+.lyrics {
+   margin-left: 50px;
+}
+
+.playbox {
+   width: 280px;
+   height: 380px;
+   background-color: whitesmoke;
+   margin-left: 74px;
+   margin-top: 60px;
+   border-radius: 30px;
+   box-shadow: 0px 2px 2px #3d3d3d;  
+}
+
+.audio {
+   margin-left: 65px;
+   margin-top: 25px;
+}
+
+.btn {
+   width: 80px;
+   height: 50px;
+   background-color: transparent;
+   color: black;
+   font-weight: bold;
+   font-size: 40px;
+   cursor: pointer;
+}
+
+#heart{
+   border:none; 
+   background: transparent;
+   margin-left: 115px;
+   margin-top: -9px;
+}
+i:hover{
+   cursor:pointer; 
+}
+i{
+   font-size:38px; 
+}
+
+h2 {
+   font-family: 'Dongle', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Sunflower', sans-serif;
+}
+
+h4 {
+   font-family: 'Dongle', sans-serif;
+font-family: 'Noto Sans KR', sans-serif;
+font-family: 'Sunflower', sans-serif;
+}
