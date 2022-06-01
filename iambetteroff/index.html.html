@@ -1,0 +1,119 @@
+<!DOCTYPE HTML> 
+    <html>
+        <head>
+            <title> song </title>
+            <META charset="UTF-8">
+            <link rel="stylesheet" type="text/css" href="main.css">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@200&family=Nanum+Gothic&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Noto+Sans+KR:wght@300;400&family=Sunflower&display=swap" rel="stylesheet">
+            <link rel="preconnect" href="https://fonts.googleapis.com">
+            <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+            <link href="https://fonts.googleapis.com/css2?family=Dongle:wght@300&family=Noto+Sans+KR:wght@300&family=Sunflower&display=swap" rel="stylesheet">
+        </head>
+        <body>
+            <div class="all";>
+                <div class="left" style="background-image: url(biambetteroff.jpg); background-position: center; background-size: 150%;"> <!--b로 앨범사진 바꾸기 album/제목-->
+                    <div class="playbox">
+                        <img class="albumimg" src="iambetteroff.jpg" alt="iambetteroff" width="210px"> <!--src, alt 바꾸기-->
+                        <h2 style="text-align: center; margin-top: -0.1px; color: rgb(37, 37, 37);"> I am better off <h2> <!--제목-->
+                        <h4 style="text-align: center; margin-top: -13px; color: rgb(37, 37, 37);"> Wildson </h4> <!--가수이름-->
+                        <button id="heart" onclick="change()"><i class="fas fa-heart"></i></button> 
+                    </div>
+                    <div class="audio">
+                    <audio src="iambetteroff.m4a" type="audio/m4a" controls> iambetteroff </audio> <!--노래 파일 바꾸기-->
+                    </div>
+                </div>
+                <div class="right">
+                    <div class="right_top">
+                        <h2 style="margin-left: 50px; color: #cb48ff; font-weight: bold;"> Information </h2>
+                        <div class="int">
+                            <!--<p style="font-size: 13px; font-style: italic; width: 300px; margin-left: 70px; color: rgb(99, 99, 99);"></p> 소개-->
+                            <pre style="width: 400px; margin-left: 15px; margin-top: 45px; ">
+신나고 싶은 당신에게, 
+Wildson의 'I Am Better Off'를 추천드려요.
+이별을 경험하거나💔 자존감이 바닥을 친 경험 있나요? 
+이 노래를 듣다가 보면 사실 그 연인과 헤어진 후에
+더 찬란한💫 삶을 살고 있다는 걸 깨닫게 될 거예요!
+“I’m celebrating my liberty!” 
+당신의 해방을 축하합니다💐
+
+                           </pre></p>
+                        </div>
+                    </div>
+                    <hr>
+                    <div class="right_bottom">
+                        <h2 style="margin-left: 50px; color: #cb48ff; font-weight: bold;"> Lyrics </h2>
+                        <div class="lyrics"> <!--가사바꾸기-->
+                            <p><pre> 
+I could feel it in my bones
+There was something going on
+That shade of doubt
+Hangin' round, got old
+'Cause darling there is nothing right
+When all you seem to do is lie
+Those days are gone
+I'm walking tall
+While you're alone
+When I think about the way we used to be
+When I think about the things you took from me
+I know that I am so much better
+Better off
+When I look at what I've done, now that we're apart
+When I look at what I've won, I've come so far
+I know I'm so much better off
+And baby, you don't belong
+Your love was cold
+Heart madе of stone
+But I'm just fine
+I'm gonna shine
+I'm alright, alright, alright
+I'm cеlebrating
+My liberation
+I'm moving strong
+I'm moving on
+I'm alright, alright, alright
+Might be shaken, but not stirred
+Just a lesson that I've learned
+And so it goes
+Tables turn, and you're on your own
+When I think about the way we used to be
+When I think about the things you took from me
+I know that I am so much better
+Better off
+When I look at what I've done, now that we're apart
+When I look at what I've won, I've come so far
+I know I'm so much better off
+And baby, you don't belong
+Better off
+When I look at what I've done, now that we're apart
+When I look at what I've won, I've come so far
+I know I'm so much better off
+And baby, you don't belong (belong, belong)
+                            </pre></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <script>
+                var buttonvar = document.querySelector("#heart")
+                function change() 
+                {
+                if(buttonvar.style.color=="red")  
+                    {
+                        buttonvar.style.color="grey";
+                    }
+                else
+                    {
+                        buttonvar.style.color="red";
+                    }    
+                }
+            </script>
+            <script src="https://kit.fontawesome.com/26f9ab6b01.js" crossorigin="anonymous"></script>
+
+        </body>
+    </html>
+    
